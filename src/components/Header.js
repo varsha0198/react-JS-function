@@ -2,9 +2,10 @@
 
 import React from 'react';
 
-function Header(){
-
-    return <h1>This is Header component</h1>
-}
+class Header extends React.Component {
+    render(){
+    return <h1>This is Class Header Component</h1>
+    }
+    }
 
     export default Header;

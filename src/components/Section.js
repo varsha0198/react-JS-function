@@ -2,9 +2,10 @@
 
 import React from 'react';
 
-function Section(){
-
-    return <h1>This is Section component</h1>
-}
+ class Section extends React.Component {
+    render(){
+    return <h1>This is Class Section Component</h1>
+    }
+    }
 
     export default Section;
