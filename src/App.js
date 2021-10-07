@@ -6,16 +6,19 @@ import Footer from './components/Footer';
 import Section from './components/Section';
 
 
+
 function App() {
   return (
     <div>
      <h1> This is default component</h1> 
-     <hr/>
+     <hr />
      <Header />
-     <hr/>
+     <hr />
      <Footer />
-     <hr/>
+     <hr />
      <Section />
+     
+    
     </div>
       
   );
